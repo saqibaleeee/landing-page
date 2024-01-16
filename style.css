@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+section{
+    background-image: url(/picture.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.logo button{border-radius: 2%;}
+.home  {
+   display: flex;flex-direction: column; align-items: center;margin-top: 89px;
+} .logo ul li a{color: black;}
+.logo button{padding: 12px 22px 13px 24px; color: brown; border-radius: 30px;}
+.home button{padding:12px 22px 13px 24px ; border-radius: 30px;color: brown;}
+.left p{line-height: 20px; width: 400px; margin-top: 19px;}
+.about img{
+    height: 300px ;
+    width: 200px;
+    border: 2px solid red;
+}
+.about{display: flex;justify-content: space-around; align-items: center; gap: 20px;}
